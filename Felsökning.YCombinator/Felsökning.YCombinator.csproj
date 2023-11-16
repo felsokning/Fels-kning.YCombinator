@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;net6.0;net7.0;net8.0;</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>8.0.0</Version>
+    <Authors>John Bailey</Authors>
+    <Company>Felsökning</Company>
+    <Description>An Assembly to Automate Calls to Hacker News</Description>
+    <Copyright>Copyright © 2023 Felsökning</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://dev.azure.com/Felsokning-Extensions-Common/Fels%C3%B6kning.Extensions.Common/_git/Fels%C3%B6kning.YCombinator</PackageProjectUrl>
+    <PackageIconUrl />
+    <PackageTags>hacker news hackernews ycombinator news.ycombinator news.ycombinator.com</PackageTags>
+    <PackageReleaseNotes>Initial Release, Supporting .NET 6 and .NET 7</PackageReleaseNotes>
+    <RepositoryUrl>https://dev.azure.com/Felsokning-Extensions-Common/Fels%C3%B6kning.Extensions.Common/_git/Fels%C3%B6kning.YCombinator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Felsökning" Version="8.1.1" />
+  </ItemGroup>
+</Project>
