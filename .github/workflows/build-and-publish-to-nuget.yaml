@@ -14,16 +14,12 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
       - name: .NET Restore
-        working-directory: ./Felsökning.YCombinator
         run: dotnet restore --verbosity=normal
       - name: .NET Build
-        working-directory: ./Felsökning.YCombinator
         run: dotnet build --no-restore --verbosity=normal
       - name: .NET Test
-        working-directory: ./Felsökning.YCombinator
         run: dotnet test --no-restore --no-build --verbosity=normal --collect:"XPlat Code Coverage" --logger:trx --results-directory coverage
       - name: Copy Coverage To Predictable Location
-        working-directory: ./Felsökning.YCombinator
         run: cp coverage/*/coverage.cobertura.xml coverage/coverage.cobertura.xml
       - name: Code Coverage Summary Report
         uses: irongut/CodeCoverageSummary@v1.3.0

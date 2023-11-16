@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felsökning.YCombinator", "Felsökning.YCombinator.csproj", "{24A51DAD-9AEB-4BB2-93F6-A19031A3D15B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felsökning.YCombinator", ".\Felsökning.YCombinator\Felsökning.YCombinator.csproj", "{24A51DAD-9AEB-4BB2-93F6-A19031A3D15B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felsökning.YCombinator.Tests", "..\Felsökning.YCombinator.Tests\Felsökning.YCombinator.Tests.csproj", "{FDD0324E-B746-44C2-BC5F-816F1C7E1C00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felsökning.YCombinator.Tests", ".\Felsökning.YCombinator.Tests\Felsökning.YCombinator.Tests.csproj", "{FDD0324E-B746-44C2-BC5F-816F1C7E1C00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
