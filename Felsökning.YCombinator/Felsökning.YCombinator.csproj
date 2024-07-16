@@ -21,6 +21,6 @@
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Felsökning" Version="8.6.1" />
+    <PackageReference Include="Felsökning" Version="8.7.0" />
   </ItemGroup>
 </Project>
