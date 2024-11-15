@@ -2,6 +2,8 @@
 
 ![workflow](https://img.shields.io/github/actions/workflow/status/felsokning/Fels-kning.YCombinator/build-and-publish-to-nuget.yaml) ![last commit](https://img.shields.io/github/last-commit/felsokning/Fels-kning.YCombinator) ![commits since release](https://img.shields.io/github/commits-since/felsokning/Fels-kning.YCombinator/latest.svg) ![top languages](https://img.shields.io/github/languages/top/felsokning/Fels-kning.YCombinator) ![language count](https://img.shields.io/github/languages/count/felsokning/Fels-kning.YCombinator) ![sponsors](https://img.shields.io/github/sponsors/felsokning)
 
+[![Build and Publish on MultiNet Container](https://github.com/felsokning/Fels-kning.YCombinator/actions/workflows/build-and-publish-to-nuget.yaml/badge.svg)](https://github.com/felsokning/Fels-kning.YCombinator/actions/workflows/build-and-publish-to-nuget.yaml)
+
 # Introduction 
 The [`Felsökning.YCombinator` NuGet assembly](https://www.nuget.org/packages/Fels%C3%B6kning.YCombinator) contains classes and methods for querying the Hacker News API. 
 
