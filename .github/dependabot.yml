@@ -7,6 +7,9 @@ updates:
     # Check the nuget registry for updates every day (weekdays) 
     schedule: 
       interval: daily
+    ignore:
+      - dependency-name: 'FluentAssertions'
+        update-types: ["version-update:semver-major"]
     groups:
       all:
         applies-to: version-updates
